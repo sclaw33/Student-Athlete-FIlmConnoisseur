@@ -1,0 +1,57 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+body {
+  background-color: rgb(211, 174, 211);
+  text-align: center;
+}
+.navigation{
+  display: flex;
+  border: solid 3px rgb(185, 184, 181);
+  background-color: rgb(247, 235, 235);
+  color: rgb(247, 235, 235);
+  flex-direction: row;
+
+}
+.navigation li {
+  text-align: center;
+  padding: 5px 5px;
+  flex-grow: 3;
+}
+
+.navigation li a {
+    color: rgb(154, 89, 160);
+    text-decoration: wavy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+.tableau-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto;
+    margin: 50px;
+    gap: 20px;
+    height: auto;
+}
+.tableauPlaceholder {
+background-color: white;
+border: solid 2px rgb(230, 224, 224);
+text-align: center;
+border-radius: 25px;
+}
+.footer {
+  grid-row: 4;
+  grid-column: 1 / span 3;
+  color: rgb(17, 16, 16);
+  margin: 0px;
+  text-align: center;
+}
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+p2 {
+  font-style: italic;
+}
+
